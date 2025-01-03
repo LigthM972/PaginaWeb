@@ -10,3 +10,21 @@ h1 {
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
 
 }
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: green;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+
+}
